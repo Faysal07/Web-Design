@@ -1,0 +1,587 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .header-top ul li {
+        padding: 0 5px 0 6px;
+        font-size: 15px;
+    }
+    .header-top ul li:nth-last-of-type(2) {
+        padding: 0 0 0 3px;
+    }
+    .header-top .col-md-6.col-sm-8 img {
+        width: 60%;
+    }
+    .header-top ul .nub {
+        font-size: 16px;
+        padding-left: 0;
+    }
+    .header-logo img {
+        width: 100%;
+    }
+    .header-main .online-shop a {
+        font-size: 15px;
+        padding: 7px 0 10px;
+    }
+    .navbar-collapse {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-nav .navbar ul li a {
+        font-size: 18px;
+        padding: 25px 15px 25px 28px;
+    }
+    .header-nav .navbar ul li a:hover {
+        background: rgba(0, 0, 0, 0) url("../images/nanbar-img.png") no-repeat scroll left center / 22px;
+    }
+    .header-nav .social-icon ul li {
+        font-size: 15px;
+        margin: 23px 0 16px 10px;
+    }
+    .banner-slider-area .bor {
+        height: 100px;
+        padding: 6px;
+        width: 700px;
+    }
+    .banner-slider-area .banner-slider-info h1 {
+        font-size: 40px;
+        height: 84px;
+        padding: 16px 0 33px;
+        width: 680px;
+    }
+    .banner-slider-area .owl-dots {
+        bottom: 20px;
+        right: 0px;
+    }
+    .banner-slider-area .owl-dot {
+        margin-right: 4px;
+    }
+    .gun-information .col-md-4 h3 {
+        font-size: 20px;
+        padding: 11px 0 0px 15px;
+    }
+    .gun-information .col-md-4 ul {
+        padding-left: 33px;
+    }
+    .gun-information .col-md-4 ul li a {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .gun-information .col-md-4 .second-head {
+        margin-top: 20px;
+    }
+    .gun-information .col-md-4 h2 {
+        font-size: 19px;
+        padding: 24px 0 0 19px;
+    }
+    .gun-information .col-md-8 .gun-first-p,
+    .gun-information .col-md-8 .gun-second-p,
+    .gun-information .col-md-8 .gun-third-p {
+        font-size: 17px;
+    }
+    .gun-information .col-md-8 h3 {
+        font-size: 20px;
+        padding-bottom: 35px;
+    }
+    .gun-information .col-md-8 .section-products {
+        font-size: 28px;
+        padding: 10px 0 11px 30px;
+    }
+    .information .map-header li {
+        padding: 0 3px 0 5px;
+        font-size: 14px;
+    }
+    .footer-section .bollet-img {
+        top: -75px;
+    }
+    .footer-section img {
+        width: 40%;
+    }
+    .footer-section {
+        height: 130px;
+    }
+
+
+
+}
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header-top ul li {
+        padding: 0 5px 0 6px;
+        font-size: 14px;
+    }
+    .col-md-6.col-sm-8 ul li img {
+        width: 50%;
+    }
+    .header-top ul li:nth-last-of-type(2) {
+        padding: 0 0 0 5px;
+    }
+    .header-top ul .nub {
+        font-size: 15px;
+        padding-left: 3px;
+    }
+    .header-logo img {
+        width: 100%;
+    }
+    .header-main .online-shop a {
+        font-size: 17px;
+        padding: 9px 0 14px;
+    }
+    .header-nav .col-sm-9 {
+        padding: 0;
+    }
+    .navbar-nav {
+        width: 100%;
+    }
+    .header-nav .navbar ul li a {
+        font-size: 16px;
+        padding: 25px 13px 25px 28px;
+    }
+    .navbar-collapse {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .header-nav .navbar ul li a:hover {
+        background: rgba(0, 0, 0, 0) url("../images/nanbar-img.png") no-repeat scroll left center;
+        background-size: 21px;
+    }
+    .header-nav .social-icon ul li {
+        margin: 23px 0 13px 4px;
+    }
+    .banner-slider-area .bor {
+        height: 80px;
+        padding: 5px;
+        width: 570px;
+    }
+    .banner-slider-area .banner-slider-info h1 {
+        font-size: 24px;
+        height: 65px;
+        width: 553px;
+    }
+    .banner-slider-area .owl-dots {
+        bottom: 10px;
+        right: 0;
+    }
+    .banner-slider-area .owl-dot {
+        background: rgba(0, 0, 0, 0) url("../images/owl-dot-single.png") no-repeat scroll 0 0 / 100%;
+        border-radius: 67%;
+        height: 22px;
+        margin-right: 5px;
+        width: 19px;
+    }
+    .banner-slider-area .owl-dot.active {
+        background: rgba(0, 0, 0, 0) url("../images/owl-dot-single-active.png") no-repeat scroll 0 0 / 100%;
+    }
+    .gun-information .col-md-4 h3 {
+        font-size: 18px;
+        padding: 12px 0 0px 12px;
+    }
+    .gun-information .col-md-4 ul {
+        padding-left: 25px;
+    }
+    .gun-information .col-md-4 ul li a {
+        font-size: 16px;
+        padding: 3px 0;
+    }
+    .gun-information .col-md-4 .second-head {
+        margin-top: 15px;
+    }
+    .gun-information .col-md-4 h2 {
+        font-size: 16px;
+        padding: 5px 0 0 11px;
+    }
+    .gun-information .col-md-8 h2 {
+        font-size: 24px;
+        padding-bottom: 16px;
+    }
+    .gun-information .col-md-8 .gun-first-p,
+    .gun-information .col-md-8 .gun-second-p,
+    .gun-information .col-md-8 .gun-third-p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .gun-information .col-md-8 h3 {
+        font-size: 15px;
+        line-height: 0px;
+        padding-bottom: 30px;
+        padding-top: 25px;
+    }
+    .information .col-sm-4 {
+        padding: 0px 0px 0px 9px;
+    }
+    .information .map-header li {
+        font-size: 11px;
+        padding: 0 3px 0 4px;
+    }
+    .information .first-information ul li {
+        font-size: 12px;
+        padding: 5px 0 5px 8px;
+    }
+    .information .first-information ul li:nth-last-of-type(4) span {
+        padding-right: 30px;
+    }
+    .information .first-information ul li:nth-last-of-type(2) span {
+        padding-top: 0;
+    }
+    .information .first-information ul li:nth-last-of-type(1) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .information .second-information {
+        height: 260px;
+        margin: 0;
+    }
+    .information .second-information ul li a {
+        font-size: 14px;
+        padding: 4px 7px;
+    }
+    .information .first-information ul li .information-schedule li {
+        padding: 3px 0;
+    }
+    .information .newsletter-information form input:nth-last-of-type(2) {
+        border-radius: 0 0 8px 8px;
+        font-size: 17px;
+        padding: 14px 8px 30px 0;
+    }
+    .information .newsletter-information p {
+        font-size: 11px;
+    }
+    .information .newsletter-information > img {
+        width: 100%;
+    }
+    .information .social-media ul li {
+        margin: 30px 0 0 5px;
+        font-size: 14px;
+    }
+    .social-icon li a i {
+        font-size: 14px;
+    }
+    .information .social-media p {
+        font-size: 9px;
+    }
+    .footer-section .bollet-img {
+        top: -60px;
+    }
+    .footer-section img {
+        width: 40%;
+    }
+    .footer-section {
+        height: 100px;
+    }
+
+
+}
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+
+    .header-top ul li {
+        padding: 0px 5px 0px 0px;
+        font-size: 13px;
+    }
+    .header-top ul li img {
+        width: 60%;
+    }
+    .header-top ul li:nth-last-of-type(2) {
+        padding: 0px 0px 0px 0px;
+    }
+    .header-top ul .nub {
+        font-size: 14px;
+        padding-left: 0;
+    }
+    .header-logo img {
+        width: 60%;
+    }
+    .header-main .online-shop a {
+        float: none;
+        font-size: 13px;
+        padding: 0px 0 0px;
+        position: relative;
+        width: 40%;
+        z-index: 2147483647;
+        display: inline-block;
+        top: -75px;
+        left: 64%;
+        margin-top: 16px;
+    }
+    .navbar-header .navbar-toggle {
+        border: 1px solid #191919;
+    }
+
+    .navbar-header .navbar-toggle.click-effect {
+        border: 0px solid transparent;
+        padding: 10px;
+    }
+
+    .navbar-header .navbar-toggle.click-effect span:nth-child(2).icon-bar {
+        background: #000;
+        width: 30px;
+        -webkit-transform: rotate(45deg);
+        -mox-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: relative;
+        top: 1px;
+        height: 1px;
+    }
+
+    .navbar-header .navbar-toggle.click-effect span:nth-child(3).icon-bar {
+        background: #000;
+        height: 1px;
+        position: relative;
+        top: -4px;
+        -webkit-transform: rotate(-45deg);
+        -mox-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .navbar-header .navbar-toggle .icon-bar {
+        background: #000;
+        width: 30px;
+        -webkit-transition: all .40s ease;
+        -moz-transition: all .40s ease;
+        -o-transition: all .40s ease;
+        transition: all .40s ease;
+    }
+
+
+    .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0.95);
+        left: 0;
+        z-index: 111;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: none;
+    }
+    .navbar-collapse {
+        position: absolute;
+        top: 58px;
+        z-index: 9999;
+    }
+    .nav-menu {
+        position: absolute;
+        right: 0;
+        top: -60px;
+        width: 100%;
+    }
+    .nav-menu {
+        padding-top: 0;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+
+    ul.navbar-nav li a {
+        padding: 6px 15px;
+        text-align: left;
+    }
+    ul.navbar-nav > li > ul.sub-menu {
+        position: relative;
+        left: auto;
+        top: auto;
+        z-index: 111;
+        background: transparent;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+        padding-left: 20px;
+    }
+
+    ul.navbar-nav li:last-child,
+    ul.navbar-nav li,
+    .nav-menu ul li ul.sub-menu li:last-child,
+    ul.navbar-nav li ul.sub-menu li {
+        border: 0px none;
+    }
+    ul.navbar-nav li {
+        display: block;
+        width: 100%;
+    }
+    ul.navbar-nav li ul.sub-menu li:hover {
+        background: transparent;
+    }
+    ul.navbar-nav li ul.sub-menu li a {
+        padding: 3px 0px 3px 15px;
+    }
+    ul.navbar-nav li a:hover,
+    ul.navbar-nav li.current_page_item a {
+        background: transparent;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu li.menu-item-has-children:before {
+        display: none;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu {
+        left: auto;
+    }
+    .navbar-nav {
+        padding: 0 15px;
+    }
+    .navbar-toggle .icon-bar {
+        border-radius: 0;
+        height: 1px;
+    }
+    ul.navbar-nav li:last-child {
+        padding: 6px 0 24px 18px;
+    }
+    .navbar-toggle {
+        float: left;
+        margin-top: 85px;
+    }
+    .navbar-collapse {
+        top: 126px;
+    }
+    .header-nav .social-icon {
+        margin-top: -50px;
+        position: relative;
+    }
+    .gun-information .col-md-4 ul li {
+        font-size: 14px;
+    }
+    .gun-information .col-md-4 h2 {
+        font-size: 14px;
+        padding: 0px 0px 15px 25px;
+        line-height: 22px;
+    }
+    .gun-information .col-md-8 h2 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .gun-information .col-md-8 .gun-first-p,
+    .gun-information .col-md-8 .gun-second-p,
+    .gun-information .col-md-8 .gun-third-p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .gun-information .col-md-8 h3 {
+        font-size: 17px;
+    }
+    .information .map-header li {
+        padding: 0px 5px 0px 10px;
+        font-size: 12px;
+    }
+    .information .first-information ul li {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .information .first-information ul li:nth-last-of-type(4) span {
+        padding-right: 30px;
+    }
+    .header-main .online-shop a img {
+        padding-left: 8px;
+        width: 17%;
+    }
+    .banner-slider-area .bor {
+        height: 50px;
+        padding: 3px;
+        width: 260px;
+    }
+    .banner-slider-area .banner-slider-info h1 {
+        font-size: 13px;
+        height: 39px;
+        padding: 15px 0 5px;
+        width: 245px;
+    }
+    .banner-slider-area .owl-dots {
+        right: 6px;
+        bottom: 6px;
+    }
+    .banner-slider-area .owl-dot {
+        border-radius: 39%;
+        height: 20px;
+        margin-right: 3px;
+        width: 16px;
+        background-size: 100%;
+    }
+    .banner-slider-area .owl-dot.active {
+        background: rgba(0, 0, 0, 0) url("../images/owl-dot-single-active.png") no-repeat scroll 0 0 / 100% auto;
+    }
+    .gun-information .col-md-8 h2 {
+        font-size: 19px;
+        line-height: 15px;
+        padding-bottom: 15px;
+    }
+    .gun-information .col-md-4 ul li a {
+        padding: 6px 0;
+    }
+    .gun-information .col-md-8 .section-products {
+        font-size: 18px;
+        padding: 4px 0 15px 32px;
+    }
+    .future-list-box .owl-prev i,
+    .future-list-box .owl-next i {
+        font-size: 20px;
+
+    }
+    .future-list-box .owl-prev i {
+        left: -5px;
+    }
+    .gun-information {
+        z-index: 0;
+    }
+    .header-nav .social-icon ul li {
+        z-index: 999999999;
+        position: relative;
+    }
+    .information .first-information {
+        margin: 10px 0 0;
+        width: 100%;
+        border: 0;
+    }
+    .information .first-information p {
+        font-size: 12px;
+    }
+    .newsletter-information {
+        display: inline-block;
+        width: 100%;
+    }
+    .newsletter-information form {
+        display: inline-block;
+        width: 100%;
+    }
+    .information .newsletter-information form input:nth-last-of-type(2),
+    .information .newsletter-information input,
+    .information .newsletter-information p,
+    .information .newsletter-information > img {
+        max-width: none;
+        float: none;
+    }
+    .footer-section .bollet-img {
+        top: -45px;
+    }
+    .footer-section img {
+        width: 25%;
+    }
+    .footer-section {
+        height: 80px;
+    }
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

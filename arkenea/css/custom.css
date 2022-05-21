@@ -1,0 +1,361 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Global Style Start Here */
+
+*, ::before, ::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Global Style Ends Here */
+
+/* Header Style Start Here */
+
+.header {
+    padding: 40px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-nav .nav-link.active {
+    color: rgba(0,0,0,.9);
+}
+
+.navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+    color: #f7564b;
+}
+
+.header ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 0px 15px !important;
+    color: #ffffff;
+    transition: 0.4s all;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.sticky {
+    background-color: #000000;
+}
+
+.sticky ul li a {
+    color: #ffffff;
+}
+
+/* Header Style Ends Here */
+
+/* Banner Style Start Here */
+
+.banner {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    display: block;
+}
+
+.banner .banner-text {
+    padding: 200px 0px;
+    z-index: 99;
+}
+
+.banner .banner-text h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 65px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner .banner-text p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.banner .banner-text p span {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner .banner-text form {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.banner .banner-text form input {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px 20px;
+    margin-right: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.banner .banner-text a {
+    padding: 15px 25px;
+    color: #ffffff;
+    background-color: #f7564b;
+    transition: 0.4s all;
+    margin-left: 15px;
+}
+
+.banner .banner-text a:hover {
+    color: #f7564b;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+/* Banner Style Ends Here */
+
+
+/* Success Style Start Here */
+
+.success {
+    padding: 80px 0px;
+    display: inline-block;
+    width: 100%;
+}
+
+.success h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #383838;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.success span {
+    border-bottom: 2px solid #9a9a9a;
+    width: 67px;
+    height: 2px;
+    display: inline-block;
+    left: 0px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.success .figure-caption p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #999797;
+    justify-content: center;
+}
+
+.success .figure-caption a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #383838;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.success .figure-caption a:hover {
+    color: #f7564b;
+}
+
+/* Success Style Ends Here */
+
+/* Testimonial Style Start Here*/
+
+.testimonial {
+    background: url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    padding: 130px 0px 40px;
+    text-align: center;
+}
+
+.testimonial figure p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 2px;
+    padding: 0px 0px;
+    color: #ffffff;
+}
+
+.blockquote-footer {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.blockquote-footer::before {
+    content: "";
+}
+
+/* Testimonial Style Ends Here*/
+
+/* Contact Style Start Here */
+
+.contact {
+    padding: 50px 0px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #666666;
+    padding-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.contact-by-sms h3,
+.contact-info h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    display: inline-block; 
+    width: 49%;
+    padding: 0px;
+    color: #212529;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.contact-by-sms form input {
+    width: 212px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ededed;
+    padding: 18px;
+    font-size: 15px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.contact-by-sms form .form-control:nth-child(3) {
+    width: 100%;
+}
+
+.contact-by-sms form textarea {
+    width: 97%;
+    border: none;
+    border-radius: 2px;
+    background-color: #ededed;
+    padding: 18px;
+    font-size: 15px;
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact-by-sms form a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #ffffff;
+    background-color: #f7564b;
+    width: 190px;
+    padding: 20px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+
+.contact-by-sms form a:hover {
+    color: #f7564b;
+    background-color: #ededed;
+}
+
+.contact-by-sms form a:focus-visible, .contact-by-sms form a:active, .contact-by-sms form a:focus {
+    border: none;
+    outline-width: 0px;
+    outline-color: #ededed;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888888;
+}
+
+.contact-info a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #888888;
+    margin: 5px 0px 15px;
+    transition: 0.5s all;
+    display: inline-block;
+}
+
+.contact-info a:hover {
+    color: #f7564b;
+}
+
+/* Contact Style Ends Here */
+
+/* Footer Style Start Here */
+
+.footer {
+    background-color: #333333;
+}
+
+.footer .left,
+.footer .right {
+    float: left;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 28px 0px;
+    margin-bottom: 0px;
+}
+
+.footer .right {
+    float: right;
+}
+
+.footer .right span {
+    color: #f7564b;
+}

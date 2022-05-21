@@ -1,0 +1,660 @@
+/*		Medium Device	*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .header-logo {
+        width: 65%;
+        padding: 18px 0px 16px;
+    }
+
+    .header-nav ul li a {
+        padding: 25px 21px 18px;
+        font-size: 16px;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu {
+        top: 67px;
+    }
+
+    .slider .slide-info h1 {
+        font-size: 50px;
+        line-height: 50px;
+        padding-bottom: 0px;
+    }
+
+    .slider .slide-info h3 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .about {
+        padding: 35px 0px;
+    }
+
+    .about-info h2,
+    .career-info h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 5px;
+    }
+
+    .about-info p {
+        font-size: 16px;
+        line-height: 27px;
+        padding: 0px 24px 35px 0px;
+    }
+
+    .about-info a,
+    .career-info a {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 6px 14px;
+        width: 150px;
+        height: 40px;
+    }
+
+    .service {
+        padding: 35px 0px 40px;
+    }
+
+    .service h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 15px;
+    }
+
+    .inner-box {
+        height: 280px;
+        padding: 32px 15px;
+    }
+
+    .inner-box h4 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .inner-box p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .career-info p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 25px;
+    }
+
+    .contact {
+        padding: 30px 0px;
+    }
+
+    .contact-box ul li {
+        margin: 0px 55px;
+    }
+
+    .contact-info i {
+        width: 120px;
+        height: 120px;
+        padding-top: 25px;
+    }
+
+    .fa-5x {
+        font-size: 4em;
+    }
+
+    .fa-4x {
+        font-size: 3em;
+    }
+
+    .second-color {
+        padding-top: 32px !important;
+    }
+
+    .contact-info h3 {
+        font-size: 19px;
+        line-height: 24px;
+        padding-bottom: 8px;
+    }
+
+    .contact-info a,
+    .contact-info h5 {
+        font-size: 17px;
+    }
+
+    .footer {
+        padding: 25px 0px 20px;
+    }
+
+    .footer-logo {
+        padding-bottom: 15px;
+    }
+
+    .footer-logo img {
+        width: 22%;
+    }
+
+    .social-icon ul li a,
+    .footer-menu ul li a {
+        padding: 6px 10px;
+        font-size: 16px;
+    }
+
+    .copyright {
+        padding: 15px 0px;
+    }
+
+    .copyright p,
+    .copyright a {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+}
+
+/*		Tablet Layout: 768px.	*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .header-logo {
+        padding: 15px 0px 15px;
+    }
+
+    .header-nav ul li a {
+        padding: 22px 18px 23px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu {
+        top: 59px;
+    }
+
+    ul.navbar-nav li ul.sub-menu li a {
+        font-size: 12px;
+        line-height: 16px;
+        width: 190px;
+    }
+
+    .slider .slide-info h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .slider .slide-info h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 0px;
+    }
+
+    .about {
+        padding: 30px 0px;
+    }
+
+    .about-info h2,
+    .career-info h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    .about-info p {
+        font-size: 14px;
+        line-height: 19px;
+        padding: 0px 30px 27px 0px;
+    }
+
+    .about-info a,
+    .career-info a {
+        font-size: 14px;
+        line-height: 27px;
+        padding: 6px 14px;
+        width: 140px;
+        height: 38px;
+    }
+
+    .service {
+        padding: 25px 0px 25px;
+    }
+
+    .service h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 25px;
+    }
+
+    .career {
+        padding: 25px 0px 30px;
+    }
+
+    .inner-box {
+        height: 245px;
+        padding: 20px 15px;
+    }
+
+    .fa-3x {
+        font-size: 2em;
+    }
+
+    .inner-box i {
+        width: 90px;
+        height: 90px;
+        padding: 29px 0px 0px;
+    }
+
+    .inner-box h4 {
+        font-size: 16px;
+        line-height: 16px;
+        padding-bottom: 4px;
+    }
+
+    .inner-box p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .career-info p {
+        font-size: 12px;
+        line-height: 21px;
+        padding-bottom: 25px;
+    }
+
+    .contact {
+        padding: 40px 0px;
+    }
+
+    .contact-info i {
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+    }
+
+    .fa-5x {
+        font-size: 3em;
+    }
+
+    .fa-4x {
+        font-size: 3em;
+    }
+
+    .contact-box .contact-info ul li {
+        display: block;
+    }
+
+    .contact-box ul li {
+        width: 100%;
+        margin: 0px 8px;
+        max-width: 222px;
+    }
+
+    .contact-info h3 {
+        line-height: 22px;
+        padding-bottom: 5px;
+    }
+
+    .contact-info a,
+    .contact-info h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer {
+        padding: 30px 0px 10px;
+    }
+
+    .footer-logo {
+        padding-bottom: 10px;
+    }
+
+    .footer-logo img {
+        width: 20%;
+    }
+
+    .social-icon ul li a,
+    .footer-menu ul li a {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 8px 12px;
+    }
+
+    .copyright {
+        padding: 12px 0px;
+    }
+
+    .copyright p,
+    .copyright a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+}
+
+
+/*		Mobile Layout: 320px.    */
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-header .navbar-toggle {
+        border: 1px solid #ddd;
+    }
+
+    .navbar-header .navbar-toggle.click-effect {
+        border: 0px solid transparent;
+        padding: 10px;
+    }
+
+    .navbar-header .navbar-toggle.click-effect span:nth-child(2).icon-bar {
+        background: #000;
+        width: 30px;
+        -webkit-transform: rotate(45deg);
+        -mox-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: relative;
+        top: 4px;
+        height: 4px;
+    }
+
+    .navbar-header .navbar-toggle.click-effect span:nth-child(3).icon-bar {
+        background: #000;
+        height: 4px;
+        position: relative;
+        top: -4px;
+        -webkit-transform: rotate(-45deg);
+        -mox-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .navbar-header .navbar-toggle .icon-bar {
+        background: #000;
+        width: 30px;
+        -webkit-transition: all .40s ease;
+        -moz-transition: all .40s ease;
+        -o-transition: all .40s ease;
+        transition: all .40s ease;
+    }
+
+
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, .95);
+        left: 0;
+        z-index: 111;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom: 3px solid #222624;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+
+    ul.navbar-nav li a {
+        padding: 6px 15px;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu {
+        position: relative;
+        left: auto;
+        top: auto;
+        z-index: 111;
+        background: transparent;
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+        padding-left: 20px;
+    }
+
+    ul.navbar-nav li:last-child,
+    ul.navbar-nav li,
+    .nav-menu ul li ul.sub-menu li:last-child,
+    ul.navbar-nav li ul.sub-menu li {
+        border: 0px none;
+    }
+
+    ul.navbar-nav li {
+        display: block;
+        width: 100%;
+    }
+
+    ul.navbar-nav li ul.sub-menu li:hover {
+        background: transparent;
+    }
+
+    ul.navbar-nav li ul.sub-menu li a {
+        padding: 3px 0px 3px 15px;
+    }
+
+    ul.navbar-nav li a:hover,
+    ul.navbar-nav li.current_page_item a {
+        background: transparent;
+        width: 100%;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu li.menu-item-has-children:before {
+        display: none;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu {
+        position: relative;
+        left: auto;
+        top: auto;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu,
+    ul.navbar-nav > li > ul.sub-menu > li.menu-item-has-children:hover > ul.sub-menu {
+        left: auto;
+    }
+
+    .navbar-collapse {
+        background-color: transparent;
+        left: 0;
+        z-index: 111;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-bottom: none;
+    }
+
+    .header-nav ul li a:hover {
+        color: #0ba14b;
+    }
+
+    ul.navbar-nav > li > ul.sub-menu {
+        border-top: none;
+    }
+
+    .header-logo {
+        width: 45%;
+        padding: 10px 0px 5px;
+    }
+
+    .navbar {
+        margin-top: -45px;
+    }
+
+    .slider .slide-info {
+        top: 69%;
+    }
+
+    .slider .slide-info h1 {
+        font-size: 22px;
+        line-height: 22px;
+        padding-bottom: 0px;
+    }
+
+    .slider .slide-info h3 {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 0px;
+    }
+
+    .about {
+        padding: 20px 0px;
+    }
+
+    .about-info h2 {
+        font-size: 22px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .about-info p {
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0px 20px 20px 0px;
+    }
+
+    .about-info a,
+    .career-info a {
+        font-size: 11px;
+        line-height: 17px;
+        padding: 6px 14px;
+        width: 100px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .service {
+        padding: 25px 0px 10px;
+    }
+
+    .service h2 {
+        font-size: 22px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+
+    .inner-box {
+        margin-bottom: 20px;
+        padding: 15px;
+        height: auto;
+    }
+
+    .inner-box i {
+        width: 95px;
+        height: 95px;
+        margin-bottom: 15px;
+    }
+
+    .fa-3x {
+        font-size: 2em;
+    }
+
+    .inner-box h4 {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+
+    .inner-box p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .career {
+        padding: 30px 0px 30px;
+    }
+
+    .career-info h2 {
+        font-size: 22px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+
+    .career-info p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+
+    .career::before {
+        border-bottom: none;
+        border-left: none;
+    }
+
+    .career::after {
+        right: 0%;
+    }
+
+    .contact {
+        padding: 30px 0px;
+    }
+
+    .contact-box ul li {
+        margin: 0px auto 25px;
+        float: none;
+        width: 100%;
+    }
+
+    .contact-info i {
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+    }
+
+    .fa-5x {
+        font-size: 3em;
+    }
+
+    .fa-4x {
+        font-size: 2.5em;
+    }
+
+    .contact-info h3 {
+        font-size: 17px;
+        line-height: 23px;
+        padding-bottom: 0px;
+    }
+
+    .contact-info > ul li {
+        margin: 0px;
+    }
+
+    .contact-info > ul li a,
+    .contact-info a,
+    .contact-info h5 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .footer {
+        padding: 30px 0px 30px;
+    }
+
+    .footer-logo {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .social-icon ul li a,
+    .footer-menu ul li a {
+        color: #fff;
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding: 25px 0px;
+    }
+
+    .copyright p,
+    .copyright a {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

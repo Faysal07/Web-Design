@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-BoldCondObl.woff2') format('woff2'),
+        url('HelveticaLTStd-BoldCondObl.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-BoldObl.woff2') format('woff2'),
+        url('HelveticaLTStd-BoldObl.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-Bold.woff2') format('woff2'),
+        url('HelveticaLTStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Copperplate';
+    src: url('CopperplateGothicBold.woff2') format('woff2'),
+        url('CopperplateGothicBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-Roman.woff2') format('woff2'),
+        url('HelveticaLTStd-Roman.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Inserat LT Std';
+    src: url('HelveticaInseratLTStd-Roman.woff2') format('woff2'),
+        url('HelveticaInseratLTStd-Roman.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-BoldCond.woff2') format('woff2'),
+        url('HelveticaLTStd-BoldCond.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
